@@ -166,8 +166,8 @@ The application is deployed on a local Ganache blockchain for development and te
 | Smart Contract Name | `CampusVoting` |
 | Solidity Compiler | `0.8.24` |
 | EVM Version | `Paris` |
-| Deployed Contract Address | `REPLACE_WITH_YOUR_DEPLOYED_CONTRACT_ADDRESS` |
-| Administrator Address | `REPLACE_WITH_DEPLOYER_ACCOUNT_ADDRESS` |
+| Deployed Contract Address | `0x497CB44A8B30b67A3C0d65a9C83dd59f037e1365` |
+| Administrator Address | `0x12159E548BcC3cAb2fEb7b662Fd9fa91EcE3644a` |
 
 **Note:** The contract address and administrator address must be copied from your actual deployment. A new deployment creates a new contract address and fresh contract state.
 
@@ -225,7 +225,8 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert smart contract compilation screenshot here -->
+<img width="954" height="438" alt="Screenshot 2026-10-17 201612" src="https://github.com/user-attachments/assets/794f2aaa-f10a-4f10-aecf-f1bdbc7a1588" />
+
 
 
 
@@ -235,7 +236,8 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert smart contract deployment screenshot here -->
+<img width="955" height="442" alt="Screenshot 2026-10-17 201714" src="https://github.com/user-attachments/assets/ea70837c-c984-40db-b95b-7d636e2956b2" />
+
 
 
 
@@ -245,7 +247,9 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert MetaMask wallet connection screenshot here -->
+<img width="946" height="468" alt="Screenshot 2026-10-17 184318" src="https://github.com/user-attachments/assets/86cc484e-6523-4405-aec6-f5ee95d4f110" />
+<img width="946" height="466" alt="Screenshot 2026-10-17 184341" src="https://github.com/user-attachments/assets/d64da6e7-e75c-4ae5-ab6b-000b6b8c9022" />
+
 
 
 
@@ -255,7 +259,19 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert successful transaction screenshot here -->
+<img width="958" height="466" alt="Screenshot 2026-10-17 193026" src="https://github.com/user-attachments/assets/3eb1736c-42eb-45d9-860a-1f11adef0d81" />
+<img width="949" height="476" alt="image" src="https://github.com/user-attachments/assets/25ed3d8a-0ac5-49c5-bd22-bbb2d1f517d7" />
+<img width="632" height="320" alt="Screenshot 2026-10-17 193238" src="https://github.com/user-attachments/assets/8568acb7-9fec-423f-a019-91772660a005" />
+<img width="950" height="466" alt="Screenshot 2026-10-17 210050" src="https://github.com/user-attachments/assets/990765d5-781c-4855-84ad-b0552de748a0" />
+<img width="956" height="469" alt="Screenshot 2026-10-17 210251" src="https://github.com/user-attachments/assets/8e32fa42-d850-4004-a7fb-2b98ab06203e" />
+<img width="941" height="461" alt="Screenshot 2026-10-17 200848" src="https://github.com/user-attachments/assets/d9b50544-cc77-4e30-8d6d-4a0144f2bae8" />
+<img width="956" height="471" alt="Screenshot 2026-10-17 200911" src="https://github.com/user-attachments/assets/637b6505-de2c-4d1d-9c5e-cf10e4e73eb1" />
+<img width="949" height="470" alt="Screenshot 2026-10-17 200933" src="https://github.com/user-attachments/assets/022c348e-b164-42b7-b426-b4e7785774f9" />
+
+
+
+
+
 
 
 
@@ -265,8 +281,12 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert failed transaction screenshot here -->
+Student starting an election:
+<img width="942" height="461" alt="Screenshot 2026-10-17 195150" src="https://github.com/user-attachments/assets/1e9b63c7-65e0-4801-9166-7de9a3c8a1f5" />
 
+
+Re-vote by the same voter:
+<img width="943" height="472" alt="Screenshot 2026-10-17 195746" src="https://github.com/user-attachments/assets/cfb8a34c-6199-4a1a-bc5d-cdc549e28d17" />
 
 
 ### 8.6 Blockchain Data Displayed Through the User Interface
@@ -275,7 +295,15 @@ The following sections are reserved for screenshots captured during actual compi
 
 **Screenshot:**
 
-<!-- Insert blockchain data displayed through the UI screenshot here -->
+<img width="629" height="385" alt="Screenshot 2026-10-17 193058" src="https://github.com/user-attachments/assets/c69ef7ea-359c-4ed0-869e-98eeeccf800f" />
+<img width="803" height="391" alt="Screenshot 2026-10-17 193158" src="https://github.com/user-attachments/assets/e8c3467c-5cad-42ac-af0d-af8c53b6578a" />
+<img width="596" height="380" alt="Screenshot 2026-10-17 195239" src="https://github.com/user-attachments/assets/be7b4b73-1270-4269-89dc-7e5673ceec36" />
+<img width="622" height="294" alt="Screenshot 2026-10-17 195840" src="https://github.com/user-attachments/assets/f16d6d50-28ef-4913-97c9-6b8fd02294c0" />
+<img width="611" height="376" alt="Screenshot 2026-10-17 200942" src="https://github.com/user-attachments/assets/3a2602b5-c102-4dc4-8cab-61fcbc316e6e" />
+
+
+
+
 
 
 
