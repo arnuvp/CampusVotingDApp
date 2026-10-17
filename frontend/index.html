@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusVote | Student Elections</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div>
+            <h1>CampusVote</h1>
+            <p>Transparent campus elections</p>
+        </div>
+
+        <button id="connectBtn">Connect MetaMask</button>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">STUDENT ELECTIONS</p>
+            <h2 id="electionName">Campus Council Election</h2>
+            <p>Choose your candidate and cast your vote on the blockchain.</p>
+
+            <div class="status-row">
+                <span id="electionStatus" class="badge">Not connected</span>
+                <span id="accountDisplay">Wallet not connected</span>
+            </div>
+        </section>
+
+        <section class="notice">
+            <strong>How voting works</strong>
+            <p>
+                Each wallet can vote once. Transactions are recorded on the
+                blockchain, and votes are publicly observable.
+            </p>
+        </section>
+
+        <section>
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">THE CANDIDATES</p>
+                    <h2>Meet your candidates</h2>
+                </div>
+                <button id="refreshBtn" class="secondary">Refresh</button>
+            </div>
+
+            <div id="candidateList" class="candidate-grid">
+                <p>Connect your wallet to load candidates.</p>
+            </div>
+
+            <div id="winnerSection" class="panel hidden">
+                <h2>Election Results</h2>
+                <p id="winnerMessage"></p>
+                <div id="finalResults"></div>
+            </div>
+        </section>
+
+        <section id="adminPanel" class="panel hidden">
+            <p class="eyebrow">ADMINISTRATOR</p>
+            <h2>Election management</h2>
+
+            <form id="candidateForm">
+                <label for="candidateName">Candidate name</label>
+                <input id="candidateName" maxlength="80" required>
+
+                <label for="manifesto">Manifesto</label>
+                <textarea id="manifesto" maxlength="500" rows="3"></textarea>
+
+                <button type="submit">Add candidate</button>
+            </form>
+
+            <div class="admin-actions">
+                <button id="startBtn">Start voting</button>
+                <button id="endBtn" class="danger">End election</button>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>Transaction activity</h2>
+
+            <p id="message" role="status" aria-live="polite">
+                Connect MetaMask to begin.
+            </p>
+
+            <!-- Successful blockchain transaction details appear here -->
+            <div id="transactionData"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CSE4444 · Blockchain Technology · Academic prototype</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/6.13.5/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
